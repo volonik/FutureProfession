@@ -1,0 +1,93 @@
+@media all and (min-width: 800px) and (max-width: 1365px) {
+
+	#bigger-mobile {
+		width: 90%;
+		min-height: 90vh;
+		display: grid;
+		grid-gap: 12px;
+		grid-template-columns: repeat(3, 1fr);
+		grid-template-rows: 1fr 4fr .5fr;
+		grid-template-areas: 
+			"h h h"
+			"m m m"
+			"a b c";
+		margin: 3% 5% 3% 5%;
+	}
+
+	#bigger-mobile .header p {
+		font-size: 100px;
+	}
+
+	#bigger-mobile .header{
+		grid-area: h;
+		text-align: center;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	#bigger-mobile .main-content {
+		grid-area: m;
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+
+	#bigger-mobile .main-content p {
+		font-size: 200%;
+	}
+
+	#bigger-mobile div {
+		text-align: center;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		align-items: center;
+	}
+
+	#bigger-mobile div p {
+		font-size: 250%;
+	}
+
+	.main-content li {
+		font-size: 140%;
+	}
+
+	.a {
+		margin-top: 7.5%;
+	}
+
+	.tt {
+		margin-top: 8%;
+		margin-bottom: 8%;
+	}
+
+	.one {
+		grid-area: a;
+	}
+
+	.two {
+		grid-area: b;
+	}
+
+	.three {
+		grid-area: c;
+	}
+
+	#mobile {
+		display: none;
+	}
+
+	#tablet {
+		display: none;
+	}
+
+	#notebook {
+		display: none;
+	}
+
+	#computer {
+		display: none;
+	}
+
+}

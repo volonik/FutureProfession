@@ -1,0 +1,75 @@
+@media all and (max-width: 799px) {
+
+	#mobile {
+		display: grid;
+		grid-gap: 5px;
+		grid-template-columns: 1fr;
+		grid-template-rows: 1fr 7.5fr repeat(3, 0.5fr);
+		width: 90%;
+		margin: 3% 5% 3% 5%;
+	}
+
+	#mobile header {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	#mobile header p {
+		text-align: center;
+		font-size: 75px;
+	}
+
+	#mobile div {
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+
+	#mobile div p, #mobile li{
+		font-size: 220%;
+	}
+
+	#mobile li {
+		margin-top: 7.5%;
+		font-size: 160%
+	}
+
+	#mobile li p {
+		font-size: 140%;
+	}
+
+	.tt {
+		margin-top: 8%;
+		margin-bottom: 8%;
+	}
+
+	.main-side {
+		text-align: center;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		align-items: center;
+	}
+
+	.main-side p {
+		font-size: 250%;
+	}
+
+	#bigger-mobile {
+		display: none;
+	}
+
+	#tablet {
+		display: none;
+	}
+
+	#notebook {
+		display: none;
+	}
+
+	#computer {
+		display: none;
+	}
+
+}

@@ -1,0 +1,22 @@
+@import "styles/mobile.css";
+@import "styles/bigger-mobile.css";
+@import "styles/notebook.css";
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.header, .header-side, .header-side a, .header a{
+	background-color: blue;
+	color: white;
+}
+
+.main-side, .main-side a, .right {
+	background-color: #696969;
+	color: white;
+}
+
+.main-content, .ad, .left {
+	background-color: #C0C0C0;
+}

@@ -1,0 +1,119 @@
+@media all and (min-width: 1366px) {
+
+	#notebook {
+		display: grid;
+		grid-gap: 12px;
+		grid-template: repeat(8, 1fr) / 1fr 1fr 1.5fr;
+		grid-template-areas: 
+			"hl h h"
+			"l m1 ma"
+			"l m2 ma"
+			"l m3 ma"
+			". mb mb"
+			". mb mb"
+			". mb mb"
+			". mb mb";
+		width: 90%;
+		margin: 3% 5% 3% 5%;
+	}
+
+	.header-side img {
+		width: 100%;
+		height: 100%;
+	}
+
+	.div1 {
+		grid-area: hl;
+	}
+
+	.header {
+		grid-area: h;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.header p {
+		font-size: 80px;
+	}
+
+	.div2 {
+		grid-area: hr;
+	}
+
+	.left {
+		grid-area: l;
+	}
+
+	.left img {
+		width: 100%;
+		height: 100%;
+	}
+
+	.main-side {
+		text-align: center;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		align-items: center;
+	}
+
+	.main-side p {
+		font-size: 200%;
+	}
+
+	.one {
+		grid-area: m1;
+	}
+
+	.two {
+		grid-area: m2;
+	}
+
+	.three {
+		grid-area: m3;
+	}
+
+	.main-content {
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+
+	.main1 {
+		grid-area: ma;
+		text-align: center;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		align-items: center;
+	}
+
+	.main1 p {
+		font-size: 250%;
+	}
+
+	.main2 {
+		grid-area: mb;
+		font-size: 200%;
+		padding-top: 3.4%;
+		padding-bottom: 3.4%;
+	}
+
+	#mobile {
+		display: none;
+	}
+
+	#bigger-mobile {
+		display: none;
+	}
+
+	#tablet {
+		display: none;
+	}
+
+	#computer {
+		display: none;
+	}
+
+}
